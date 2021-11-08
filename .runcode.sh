@@ -1,7 +1,3 @@
-#!/bin/bash
-
-set -euxo pipefail
-
 apt-get update -y
 apt-get install supervisor virtualenv htop -y
 
