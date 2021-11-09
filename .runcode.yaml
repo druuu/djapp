@@ -1,0 +1,5 @@
+script:
+  - apt-get update -y
+  - apt-get install supervisor -y
+  - wget https://raw.githubusercontent.com/karrug/copypasta/master/html-boilerplate.html
+  - python3 -m http.server 8080
