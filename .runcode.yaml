@@ -6,3 +6,4 @@ script:
   - ln -s /opt/node-v16.13.0-linux-x64/bin/node /usr/bin/node
   - ln -s /opt/node-v16.13.0-linux-x64/bin/npm /usr/bin/npm
   - npm config set prefix /usr/local
+  - npm install -g yo generator-code
